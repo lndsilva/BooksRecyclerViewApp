@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BooksRecyclerViewApp</string>
+    <string name="listagem_de_livros">Listagem de Livros</string>
+</resources>
