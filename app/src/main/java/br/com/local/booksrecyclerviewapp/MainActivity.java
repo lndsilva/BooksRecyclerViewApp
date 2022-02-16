@@ -50,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView mRecyclerView = findViewById(R.id.id_recyclerView);
 
         //Instânciando o adaptador com os valores necessários
-        RecyclerViewAdapter mAdapter = new RecyclerViewAdapter(getApplicationContext(), lstLivros);
+        RecyclerViewAdapter mAdapter = new RecyclerViewAdapter(
+                getApplicationContext(),
+                lstLivros);
         //Criando o layout para inserção dos valores
 
         //LayoutManager não é necessário inserção de colunas - pode ser utilizado na vertical ou horizontal
